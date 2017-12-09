@@ -42,3 +42,8 @@
 (defcard checkbox-unchecked
   "[Checkbox](https://developer.microsoft.com/en-us/fabric#/components/checkbox)"
   (ui-checkbox #js {:checked false}))
+
+
+(defcard checkbox-uncontrolled
+  "[Checkbox](https://developer.microsoft.com/en-us/fabric#/components/checkbox)"
+  (ui-checkbox #js {:defaultChecked true}))
